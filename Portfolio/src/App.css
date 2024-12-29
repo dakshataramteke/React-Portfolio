@@ -12,8 +12,9 @@
   --primary-color: #8acff5;
   --secondary-color: #27619b;
   --darkblue : #091020;
-  --success-color:rgba(26, 149, 26, 0.882);
-  --bg-dark-blue: #091020;
+  /* --success-color:rgba(26, 149, 26, 0.882); */
+  --bg-dark-blue: #0e1830;
+  --bg-purple:rgb(153, 2, 153);
   --bg-white: #fff;
   --gray-color: #C6C6C6;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--primary-color)', endColorstr='var(--secondary-color)', GradientType=1 );
@@ -74,7 +75,7 @@ h1{
     font-size: 54px;
     line-height: 68px;
     font-weight: 800;
-    color: var(--success-color);
+    color: var(--bg-purple);
     margin-bottom: 20px;
 }
 h6 span{
@@ -130,7 +131,7 @@ button{
 
 /* Navbar  */
 .header_wrapper .navbar{
-padding: 15px 0;
+padding: 10x 0;
 -webkit-transition: all .2s linear;
 -o-transition: all .2s linear;
 transition: all .2s linear;
@@ -196,9 +197,8 @@ transition: all .2s linear;
 .banner_wrapper{
     width: 100%;
     height: auto;
-    min-height: 650px;
-    /* background-image: url("./assests/images/img1.jpg"); */
-    background-image: url("./assets/images/img1.jpg");
+    min-height: 670px;
+    background-image: url("./assets/images/Home.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -252,20 +252,11 @@ transition: all .2s linear;
     background-color: var(--bg-white);
     overflow: visible;
 }
-.about_wrapper .progress-bar{
-    width: 95%;
-    background-color: var(--success-color);
-}
+
 .about_wrapper .single-progress .progress h6{
     text-align: left;
 }
-.about_wrapper .single-progress .label{
-    position: absolute;
-    right: 0;
-    top: 0;
-    color: var(--text-gray);
-    font-size: 15px;
-}
+
 .about_wrapper .tab-pane li{
     color: var(--gray-color);
     font-size: 16px;

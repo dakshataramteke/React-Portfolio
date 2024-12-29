@@ -1,9 +1,9 @@
-
+import contact from '../assets/images/contact.svg';
 
 const Contact = () => {
   return (
     <>
-      <section id="contact" className="contact_wrapper">
+      <section id="contact" className="contact_wrapper mt-5">
   <div className="container">
     <div className="row justify-content-between align-items-center">
       <div className=" mb-4 col-lg-6 order-2 order-lg-1 text-lg-start text-center">
@@ -34,8 +34,9 @@ const Contact = () => {
           <button type="submit" className="main_btn">Submit</button>
         </form>
       </div>
-      <div className="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
-        <img src="/assests/images/phonering.jpg" className="img-fluid" alt=""/>
+      {/* <div className='col-lg-1'></div> */}
+      <div className="col-lg-5 order-1 mb-4 order-lg-1 mb-lg-0 ps-md-5">
+        <img src={contact} alt="about-image" className="img-fluid" style={{height: '400px', width:'400px'}}/>
       </div>
     </div>
   </div>

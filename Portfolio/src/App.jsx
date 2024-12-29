@@ -5,6 +5,7 @@ import Resume from "./Components/Resume";
 import Project from "./Components/Project";
 import Contact from "./Components/Contact";
 import Home from "./Components/Home";
+import Footer from "./Components/Footer";
 import "./App.css";
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/project" element={<Project />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </>
   );
